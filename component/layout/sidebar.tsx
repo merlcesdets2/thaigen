@@ -9,8 +9,8 @@ import {
   Adjustments,
   Lock,
 } from 'tabler-icons-react';
-import { LinksGroup } from './linkGroup';
-import { UserButton } from './userButton';
+import { LinksGroup } from '../linkGroup';
+import { UserButton } from '../userButton';
 
 const mockdata = [
   { label: 'Dashboard', icon: Gauge },
