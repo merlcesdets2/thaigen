@@ -1,4 +1,4 @@
-import { AppShell } from '@mantine/core';
+import { AppShell, Title } from '@mantine/core';
 import { NavbarNested } from './sidebar'
 
 type Props = {
@@ -16,6 +16,7 @@ export const AplicationContainer = ({title, children}: Props) => {
             main: { backgroundColor: theme.colorScheme === 'dark' ? theme.colors.dark[8] : theme.colors.gray[0] },
         })}
         >
+        <Title order={1}>{title}</Title>
         {children}
         </AppShell>
     );

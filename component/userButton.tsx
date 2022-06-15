@@ -1,7 +1,6 @@
 import React from 'react';
 import {
   UnstyledButton,
-  UnstyledButtonProps,
   Group,
   Avatar,
   Text,
