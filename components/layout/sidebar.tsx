@@ -107,7 +107,7 @@ export const NavbarNested = () => {
 
       <Navbar.Section className={classes.footer}>
         <UserButton
-          image="https://github.com/merlcesdets2"
+          image="https://github.com/merlcesdets2.png"
           name="Namwhan Supreya"
           email="Namwhan@yahoo.com"
         />

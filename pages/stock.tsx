@@ -1,13 +1,13 @@
 import type { NextPage } from 'next'
-import { AplicationContainer }  from '../component/layout/template'
-import { Container, Text } from '@mantine/core'
+import { AplicationContainer }  from '../components/layout/template'
+// import { Container, Text } from '@mantine/core'
+import StockTable from '../components/stockTable'
 
 const Stock: NextPage = () => {
+
   return (
           <AplicationContainer title='Stock'>
-            <Container>
-              <Text>princeprinceprinceprinceprince</Text>
-            </Container>
+            <StockTable/>
           </AplicationContainer>
   )
 }
