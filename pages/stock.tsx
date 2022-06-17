@@ -1,7 +1,9 @@
 import type { NextPage } from 'next'
 import { AplicationContainer }  from '../components/layout/template'
-// import { Container, Text } from '@mantine/core'
 import StockTable from '../components/stockTable'
+import { PrismaClient } from '@prisma/client'
+
+const prisma = new PrismaClient()
 
 const Stock: NextPage = () => {
 
