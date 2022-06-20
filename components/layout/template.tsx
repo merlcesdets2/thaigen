@@ -16,7 +16,7 @@ export const AplicationContainer = ({title, children}: Props) => {
         })}
         >
         <Title order={1} style={{ marginBottom: '3%' }}>{title}</Title>
-        <Container style={{ marginLeft: 0 }}>
+        <Container style={{ marginLeft: 0, background: 'white', padding: '2%'}}>
             {children}
         </Container>
         </AppShell>
