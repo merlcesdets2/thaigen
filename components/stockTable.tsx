@@ -1,11 +1,13 @@
+// unuse
+
 import { Table } from '@mantine/core'
 
 const elements = [
     { name: 'AAA', productCode: 111, producDescription: 'loremloremloremloremlorem', status: 'Avilable', remark: 'Carbon' },
     { name: 'BBB', productCode: 112, producDescription: 'loremloremloremloremlorem', status: 'Rental', remark: 'Nitrogen' },
     { name: 'CCC', productCode: 113, producDescription: 'loremloremloremloremlorem', status: 'Sold', remark: 'Yttrium' },
-    { name: 'DDD', productCode: 113, producDescription: 'loremloremloremloremlorem', status: 'Avilable', remark: 'Barium' },
-    { name: 'FFF', productCode: 114, producDescription: 'loremloremloremloremlorem', status: 'Avilable', remark: 'Cerium' },
+    { name: 'DDD', productCode: 114, producDescription: 'loremloremloremloremlorem', status: 'Avilable', remark: 'Barium' },
+    { name: 'FFF', productCode: 115, producDescription: 'loremloremloremloremlorem', status: 'Avilable', remark: 'Cerium' },
   ]
 
 function StockTable() {
